@@ -1,0 +1,117 @@
+* {
+      box-sizing: border-box;
+}
+
+h1 {
+      color: rgb(73, 202, 131);
+}
+
+input[type="radio"]#age,
+input[type="radio"]#pro,
+input[type="radio"]#name {
+      accent-color: blue;
+}
+
+
+
+body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 17px;
+      margin: 15px -31px;
+      padding: 8px;
+      background-color: rgb(73, 202, 131);
+}
+
+
+::placeholder {
+      color: rgb(73, 202, 131);
+      opacity: 1;
+      /* Firefox */
+}
+
+.container {
+      background-color: white;
+      margin: 5px 100px;
+      padding: 5px 20px 15px 20px;
+      /* border: 10px solid lightgray; */
+      border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+      width: 100%;
+      height: 6%;
+      border: 1px solid rgb(122, 143, 150);
+      margin: 8px;
+      border-radius: 3px;
+}
+
+textarea {
+
+      width: 100%;
+      height: 70px;
+      border: 1px solid rgb(122, 143, 150);
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px;
+}
+
+fieldset {
+      background-color: white;
+      border: 1px solid rgb(85, 83, 83);
+      margin: 6px;
+      padding: 10px;
+}
+
+
+
+
+input[type="submit"] {
+      background-color: forestgreen;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      border-radius: 5px;
+
+}
+
+.row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.column1 {
+      width: 400px;
+}
+
+.column2 {
+      width: 500px;
+}
+
+
+#location {
+      color: forestgreen;
+      ;
+}
+
+.age2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* justify-content: space-between; */
+}
+
+.age1 {
+      width: 100px;
+}
+
+.age3 {
+      width: 100px;
+}
